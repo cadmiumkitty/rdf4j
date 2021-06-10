@@ -2,7 +2,7 @@ FROM tomcat:8.5-jdk8-openjdk-buster
 
 ENV vb_version=9.1.0
 ENV st_version=9.1
-ENV rdf4j_version=3.6.3
+ENV rdf4j_version=3.7.0
 
 ENV CATALINA_OPTS="-Dorg.eclipse.rdf4j.appdata.basedir=/var/rdf4j"
 
